@@ -321,28 +321,30 @@ img{
     line-height: 2;
     color: var(--active-color);}
 
+
+
 /* Footer studio*/
-
-
-
-.logo-footer{
-    display: inline-block;
-    margin-bottom: 20px;
-    padding-top: 60px;
-    color: var(--background-color);
-   }
-
 
 .footer {
     background-color: var(--background-footer-color);
+    
 }
-
+.logo-style{
+    display: inline-block;
+    width: 1200px; margin-left: auto; margin-right: auto;
+    margin-bottom: 9px;
+    padding-top: 60px;
+} 
+.logo-footer {
+    color: var(--background-color);
+}
 .footer-contact {
+    display: inline-block;
+    width: 1200px;
+    margin-bottom: 9px;
     line-height: 1.7;
     font-style: normal;
     color: var(--background-color);
-    display: inline-block;
-    margin-bottom: 9px;
 }
 .footer-contact:hover {
     color: var(--accent-color)
@@ -358,7 +360,7 @@ img{
     margin-bottom: 9px;}
 .tel{
     display: inline-block; 
-    margin-bottom: 60px;}
+    padding-bottom: 60px;}
 
 .contact:hover {
     color: var(--accent-color)
